@@ -6,6 +6,13 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  border-radius: 20px;
+  border: 5px solid transparent;
+  border-color: #535bf2;
+  /* padding: 1rem; */
+  /* margin: 1rem; */
+
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

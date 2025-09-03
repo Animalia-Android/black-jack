@@ -48,8 +48,8 @@ export default function BlackjackPage() {
   }, [state.balance, state.bet]);
 
   return (
-    <div className="bg-emerald-700 rounded-xl text-stone-100 flex items-center justify-center p-20">
-      <div className="w-full max-w-3xl rounded-2xl border border-stone-800 bg-stone-900/60 backdrop-blur p-6 shadow-2xl">
+    <div className="bg-emerald-700 rounded-xl text-stone-100 flex items-center justify-center p-15 min-h-705px ">
+      <div className="w-full max-w-3xl rounded-4xl border border-stone-800 bg-stone-900/60 backdrop-blur p-6 shadow-2xl">
         <header className="mb-4 flex items-center justify-between">
           <h1 className="text-xl font-bold tracking-tight">Dealers Table</h1>
           <button
